@@ -3,10 +3,14 @@ Employment scams are on the rise. According to CNBC, the number of employment sc
 
 This project uses data provided from Kaggle. This data contains features that define a job posting. These job postings are categorized as either real or fake. Fake job postings are a very small fraction of this dataset. That is as excepted. We do not expect a lot of fake jobs postings. This project follows five stages. The five stages adopted for this project are –
 
-Problem Definition (Project Overview, Project statement and Metrics)
+Problem Definition (Problem Statement and Metrics),
 Data Collection
 Data cleaning, exploring and pre-processing
 Modeling
 Evaluating
 
 <img width="852" alt="stages-of-development" src="https://user-images.githubusercontent.com/54286216/153758402-92428b85-9443-4e21-9753-5e34659cb52e.png">
+
+
+# Problem Statement
+This project aims to create a classifier that will have the capability to identify fake and real jobs. The final result will be evaluated based on the general machine learning different models. The dataset contains 3 different types of data, but will be excluding textual part and continue working with numeric and categorical data. The final model will take in any relevant job posting data and produce a final result determining whether the job is real or not.
