@@ -9,14 +9,4 @@ Data cleaning, exploring and pre-processing
 Modeling
 Evaluating
 
-
-
-
-
-
-
-
-
-
-
-
+<img width="852" alt="stages-of-development" src="https://user-images.githubusercontent.com/54286216/153758402-92428b85-9443-4e21-9753-5e34659cb52e.png">
