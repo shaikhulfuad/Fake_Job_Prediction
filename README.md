@@ -93,6 +93,11 @@ Numbers of job posted department wise:
 ![11jobs_department](https://user-images.githubusercontent.com/54286216/165033527-56a01ab6-bb04-4f0d-bb4b-d216ecfdffd2.png)
 
 
+****Visualization of integer/numeric features
+
+![17](https://user-images.githubusercontent.com/54286216/165063258-7b575cd6-ad0b-41e2-98b2-3a7373afe74e.JPG)
+
+
 ****Visualization of text fields/columns
 
 ![12jobs_text](https://user-images.githubusercontent.com/54286216/165034233-31908927-bc0d-4cf5-b145-2ed83f90f5d9.JPG)
@@ -117,4 +122,27 @@ Here telecommuting has no correlation, as a result it can be excluded. The other
 # Data Cleaning
     ****Categorical,Numeric features
     
-   1.Handled missing values 
+   1.Removed the irrelevent and the features which holds more than 60% missing values:- job_id(irrelevant), salary_range and department has lots of missing values almost 70% out of 17880 instances.
+   
+   2.Removing telecommuting feature too as it has no corelation
+   
+   3.Handling missing/null values- replacing the categorical features with the most appeared values
+   ![Annotation 2022-04-25 152746](https://user-images.githubusercontent.com/54286216/165062239-d0741276-bf21-427a-81b0-44526357057f.png)
+   ![16jobs_cleaned](https://user-images.githubusercontent.com/54286216/165062634-2c82535b-2b48-434c-bb7e-307ae67c5b6e.JPG)
+   
+   4.Dropped the duplicate records
+   
+   5.Converted categorical features to numeric by label encoder
+   
+   6.Dataset was highly imbalanced, as a result balanced out the data by oversampling method(SMOTETomek)
+   
+   Cleaned Data
+   
+   ![15jobs_processed](https://user-images.githubusercontent.com/54286216/165064125-8d796940-1140-47ff-80de-ce3de04b62ec.JPG)
+
+   
+    
+    ****Text Minning from textual fields
+    
+   
+   1.
