@@ -197,3 +197,9 @@ Random Forest   ................................................................
 ![2](https://user-images.githubusercontent.com/54286216/168414329-4d914c75-4e97-46db-b1f1-53df06a25431.png)
 
 
+Combined Model evaluation plots
+
+![bar-graph (1)](https://user-images.githubusercontent.com/54286216/168415386-e1d76ee5-686d-4475-8fb0-a5e2c9a8d52a.png)
+![bar-graph (2)](https://user-images.githubusercontent.com/54286216/168415394-d3a50daa-b522-42a5-93d9-e1ac9f4e6115.png)
+
+
