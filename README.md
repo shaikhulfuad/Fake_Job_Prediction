@@ -177,3 +177,23 @@ Here telecommuting has no correlation, as a result it can be excluded. The other
 
 # Results and Findings
 
+Model evaluations with Categorical Features
+
+![results categr](https://user-images.githubusercontent.com/54286216/168414065-eb791776-0aa9-4c28-8ea5-d4c9592414f8.png)
+
+Here best model that performs is Random Forest classifier, whereas Support Vector machine performs poorly.
+
+Model evaluations with Text Features
+
+![results text](https://user-images.githubusercontent.com/54286216/168414103-2babb935-30a5-48f3-8189-6e380becffe7.png)
+
+Here best model that performs is Support Vector Machine. But in general all the other model performs better with text mining than categorical data excluding K-nearest neighbour. KNN is the least best model that performs.
+
+***Confusion Matrix for best models from each approach
+
+Random Forest   ...................................................................    Support Vector Machine
+
+![21randomforest](https://user-images.githubusercontent.com/54286216/168414313-2a4c4a07-81ab-4660-a2c9-4fc5ddbb065f.JPG)
+![2](https://user-images.githubusercontent.com/54286216/168414329-4d914c75-4e97-46db-b1f1-53df06a25431.png)
+
+
