@@ -140,9 +140,40 @@ Here telecommuting has no correlation, as a result it can be excluded. The other
    
    ![15jobs_processed](https://user-images.githubusercontent.com/54286216/165064125-8d796940-1140-47ff-80de-ce3de04b62ec.JPG)
 
-   
+  
+  
     
     ****Text Minning from textual fields
     
    
-   1.
+   1. Extracted and concatenated all the text fields.
+   
+   2. Natural Language Processing (NLTK, Spacy) 
+   
+   3. Created a wordcloud(most appeared words)
+          
+        WordCloud Real
+           
+         ![real](https://user-images.githubusercontent.com/54286216/168412685-a0ec805b-6ee8-418b-be10-099dbb8dc077.png)
+
+        WordCloud Fraud
+        
+         ![fraud](https://user-images.githubusercontent.com/54286216/168412711-0f848ddb-deef-48ab-b427-3a82d7743fd3.png)
+
+   4. 
+   
+   ![nlp](https://user-images.githubusercontent.com/54286216/168413304-004f503a-11bf-445f-b522-9e3731f01070.png)
+
+   Tokenization: The textual data is split into smaller units. In this case the data is split into words.
+
+   To Lower: The split words are converted to lowercase
+   
+   Stopword removal: Stopwords are words that do not add much meaning to sentences. For example: the, a, an, he, have etc. These words are removed.
+
+   Stemming: Stemming identifies the common root form of a word by removing or replacing word suffixes (e.g. “flooding” is stemmed as “flood”)
+
+   5. Text mining/ Text feature extracton using TfidfVectorizer.
+
+
+# Results and Findings
+
